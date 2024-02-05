@@ -8,14 +8,6 @@
 
 由于资料都是在网络中查找的 如果有什么错处可以帮我提出来 纠正错误 感激不尽
 
-## 提交书籍
-
-1. [Fork](https://github.com/Theo-messi/Metaphysical-Book/fork) 我的仓库 并为我提出 [PR](https://github.com/Theo-messi/Metaphysical-Book/pulls)
-2. [请用邮件传送给我](mailto:fanxiaobin422@gmail.com)
-
-## 纠正错误
-
-[请在这里提出 issues](https://github.com/Theo-messi/Metaphysical-Book/issues) | [或者请给我发邮件](mailto:fanxiaobin422@gmail.com)
 
 ## 本地安装与提交格式注意事项
 
