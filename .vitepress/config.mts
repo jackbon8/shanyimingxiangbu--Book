@@ -42,17 +42,14 @@ export default defineConfig({
   // appearance: false,
 
   // 站点地图
-  // sitemap: {
-  //   hostname: 'https://theovan.xyz',
-  //   transformItems(items) {
-  //     return items.filter((item) => !item.url.includes('migration'))
-  //   }
-  // },
+  sitemap: {
+    hostname: 'https://xx.theovan.cn'
+  },
 
   // 主题配置
   themeConfig: {
     // // logo
-    logo: 'https://theovan.xyz/avatar.png',
+    logo: 'https://theovan.cn/avatar.png',
 
     // 社交链接
     socialLinks: [{ icon: 'github', link: 'https://github.com/Theo-messi' }],
@@ -98,7 +95,7 @@ export default defineConfig({
     // 底部信息
     footer: {
       message: 'Released Under The MIT License.',
-      copyright:`Copyright © 2019 - ${new Date().getFullYear()} <a href="https://github.com/Theo-messi" target="_blank">Theo</a> . All Rights Reserved.`
+      copyright: `Copyright © 2019 - ${new Date().getFullYear()} <a href="https://github.com/Theo-messi" target="_blank">Theo</a> . All Rights Reserved.`
     }
   }
 })

@@ -19,17 +19,18 @@
 
 #### 安装 pnpm 包管理器
 
-::: code-group
+Windows
 
-```sh [Windows]
+```sh 
 iwr https://get.pnpm.io/install.ps1 -useb | iex
 ```
+MacOS
 
-```sh [MacOS]
+```sh 
 brew install pnpm
 ```
 
-:::
+
 
 #### 安装项目依赖
 
@@ -37,7 +38,7 @@ brew install pnpm
 pnpm install
 ```
 
----
+
 
 ### 启动本地开发预览
 
@@ -45,7 +46,7 @@ pnpm install
 pnpm run dev
 ```
 
----
+
 
 ### 文章目录
 
@@ -55,7 +56,7 @@ pnpm run dev
 
 请将书籍放置到相应的目录下
 
----
+
 
 ### 提交格式
 
@@ -75,11 +76,9 @@ editLink: true
 ····
 ```
 
----
-
 ### 修改侧边栏显示书籍
 
-进入`bible/.vitepress/configs/sidebar.ts`目录
+进入`.vitepress/configs/sidebar.ts`目录
 
 按照如下格式进行配置
 
@@ -115,7 +114,7 @@ export function Sidelc() {
 
 请将书籍拖动至`src/山`文件夹下
 
-并且在`docs/.vitepress/configs/sidebar.ts`添加侧边栏路径
+并且在`.vitepress/configs/sidebar.ts`添加侧边栏路径
 配置如下:
 
 ```ts
